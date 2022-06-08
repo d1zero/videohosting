@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "backend"
+version = "0.1.0"
+description = ""
+authors = ["Alexander <alexsergeev45@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+djangorestframework = "^3.13.1"
+django-environ = "^0.8.1"
+djangorestframework-simplejwt = "^5.2.0"
+
+[tool.poetry.dev-dependencies]
+autopep8 = "^1.6.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
